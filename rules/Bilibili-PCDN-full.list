@@ -1,0 +1,96 @@
+# Quantumult X - PCDN blocklist (FULL)
+# Source: https://pastebin.com/cyKBv0qK (2026-11-07)
+# Converted 2026-11-08; one duplicate removed.
+# Caution: May block legitimate CDN/telemetry services.
+# Use as [filter_remote] resource, or copy rules under [filter_local].
+
+# Bilibili PCDN / Maoer FM
+HOST-SUFFIX,solseedr.cn,reject
+HOST-SUFFIX,solseed.cn,reject
+# Pai Ou Cloud PCDN
+HOST-SUFFIX,ppgslb.cn,reject
+HOST-SUFFIX,eeeam.com,reject
+HOST-SUFFIX,pocedsgslb.com,reject
+HOST-SUFFIX,paigod.work,reject
+HOST-SUFFIX,scwl.cn,reject
+HOST-SUFFIX,paisine.com,reject
+HOST-SUFFIX,pplabs.com,reject
+HOST-SUFFIX,ppgslb.com,reject
+HOST-SUFFIX,ppio.com,reject
+HOST-SUFFIX,ppio.cn,reject
+HOST-SUFFIX,ppos.com,reject
+HOST-SUFFIX,paicosine.com,reject
+HOST-SUFFIX,pai-net.work,reject
+HOST-SUFFIX,dddfe.com,reject
+HOST-SUFFIX,demoforge.site,reject
+HOST-SUFFIX,ppiocloud.site,reject
+HOST-SUFFIX,ppio.online,reject
+HOST-SUFFIX,ppinfra.com,reject
+HOST-SUFFIX,ppiocdn.com,reject
+HOST-SUFFIX,ppiocdn.cn,reject
+HOST-SUFFIX,nexusedgeio.com,reject
+HOST-SUFFIX,pyrcms.com,reject
+HOST-SUFFIX,pyedsgslb.com,reject
+HOST-SUFFIX,ppio.work,reject
+HOST-SUFFIX,thefirstchain.com,reject
+HOST-SUFFIX,paigpu.com,reject
+HOST-SUFFIX,gncrr.live,reject
+HOST-SUFFIX,ppio.cloud,reject
+HOST-SUFFIX,scsd.cn,reject
+HOST-SUFFIX,xyxyzz.com,reject
+HOST-SUFFIX,ppio.net.cn,reject
+
+## Bilibili PCDN Blockage
+HOST-SUFFIX,mcdn.bilivideo.cn,reject
+HOST-SUFFIX,mcdn.bilivideo.com,reject
+HOST-SUFFIX,ppio.bilivideo.com,reject
+HOST-SUFFIX,kodo.bilivideo.com,reject
+
+HOST-SUFFIX,edge.mountaintoys.cn,reject
+HOST-SUFFIX,abcdefgaijkl.com,reject
+HOST-SUFFIX,wiebaijitamo.com,reject
+HOST-SUFFIX,abcdegghijkl.com,reject
+HOST-SUFFIX,opqrsduvwxyz.com,reject
+HOST-SUFFIX,zyxwvutsrqpo.com,reject
+HOST-SUFFIX,clipspacexyy.com,reject
+HOST-SUFFIX,netvisorhub.com,reject
+HOST-SUFFIX,lmnopqrstuvw.com,reject
+HOST-SUFFIX,quantazoomz.com,reject
+HOST-SUFFIX,stormfluxixx.com,reject
+HOST-SUFFIX,datapixelzzx.com,reject
+HOST-SUFFIX,ijklmnopqrst.com,reject
+HOST-SUFFIX,flexcloudyz.com,reject
+HOST-SUFFIX,dooquuequezi.com,reject
+HOST-SUFFIX,taishoopecei.com,reject
+HOST-SUFFIX,qrstuvwxyzab.com,reject
+HOST-SUFFIX,zeicaefiegoh.com,reject
+HOST-SUFFIX,zonerushappz.com,reject
+HOST-SUFFIX,techvortexz1.com,reject
+HOST-SUFFIX,alphawebzzz.com,reject
+HOST-SUFFIX,gliderboxxyy.com,reject
+HOST-SUFFIX,ahdohpiechei.com,reject
+HOST-SUFFIX,xionguamaqui.com,reject
+HOST-SUFFIX,gaetausohyei.com,reject
+HOST-SUFFIX,roongeimahwo.com,reject
+HOST-SUFFIX,kaiwaijaicai.com,reject
+
+HOST-SUFFIX,ourdvsss.com,reject
+
+# Bilibili Telemetry, crazy sending speed...
+HOST,data.bilibili.com,reject
+HOST,dataflow.biliapi.com,reject
+HOST,cm.bilibili.com,reject
+
+# Bilibili PCDN (ZhenXuanYun)
+HOST-SUFFIX,zhenxyun.cn,reject
+HOST-SUFFIX,zhenxcloud.cn,reject
+HOST-SUFFIX,zhenidc.cn,reject
+HOST-SUFFIX,zxycdn.cn,reject
+HOST-SUFFIX,zhenxuanidc.cn,reject
+HOST-SUFFIX,zhenxuancdn.cn,reject
+HOST-SUFFIX,zhenxuancloud.com,reject
+
+# PCDN Blockage
+HOST-KEYWORD,smogfly,reject
+HOST-KEYWORD,wuchuyun,reject
+HOST-KEYWORD,wuchucloud,reject
