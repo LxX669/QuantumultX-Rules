@@ -1,0 +1,7 @@
+# Quantumult X - Bilibili PCDN conservative blocklist
+# Uses only narrowly scoped Bilibili PCDN-related hosts from the source.
+# Does not include kodo.bilivideo.com (may affect normal delivery).
+# Source: https://pastebin.com/cyKBv0qK
+HOST-SUFFIX,mcdn.bilivideo.cn,reject
+HOST-SUFFIX,mcdn.bilivideo.com,reject
+HOST-SUFFIX,ppio.bilivideo.com,reject
